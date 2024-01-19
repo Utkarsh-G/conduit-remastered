@@ -7,6 +7,9 @@
     "verified": "11"
   },
   "description": "Conduit class for Pathfinder 2e.",
+  "url": "https://github.com/Utkarsh-G/conduit-remastered",
+  "manifest": "https://raw.githubusercontent.com/Utkarsh-G/conduit-remastered/master/module.json",
+  "download": "https://github.com/Utkarsh-G/conduit-remastered/archive/refs/heads/main.zip",
   "authors": [
     {
       "name": "Utkarsh G.",
