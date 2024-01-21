@@ -1,19 +1,20 @@
 {
   "id": "conduit",
-  "title": "Conduit",
+  "title": "Conduit Remastered",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
   },
-  "description": "Conduit class for Pathfinder 2e.",
+  "description": "A high-accuracy energy blaster class for Pathfinder 2e.",
   "url": "https://github.com/Utkarsh-G/conduit-remastered",
   "manifest": "https://raw.githubusercontent.com/Utkarsh-G/conduit-remastered/master/module.json",
   "download": "https://github.com/Utkarsh-G/conduit-remastered/archive/refs/heads/main.zip",
   "authors": [
     {
-      "name": "Utkarsh G.",
-      "discord": "AvtrSpirit"
+      "name": "Utkarsh Gaur",
+      "discord": "AvtrSpirit",
+      "email": "avtrspirit@gmail.com"
     }
   ],
   "packs": [
@@ -22,107 +23,108 @@
       "label": "Class",
       "path": "packs/class",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
-	{
+    {
       "name": "classfeatures",
       "label": "Class Features",
       "path": "packs/classfeatures",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "feats",
       "label": "Feats",
       "path": "packs/feats",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "conduitmacros",
       "label": "Conduit Macros",
       "path": "packs/conduitmacros",
       "type": "Macro",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "conduitarchetype",
       "label": "Conduit Archetype",
       "path": "packs/conduitarchetype",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
-	{
+    {
       "name": "magicitems",
       "label": "Magic Items",
       "path": "packs/magicitems",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
-	{
+    {
       "name": "textguide",
       "label": "Class Info + License",
       "path": "packs/textguide",
       "type": "JournalEntry",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     }
   ],
   "packFolders": [
     {
-        "name": "Conduit",
-        "sorting": "a",
-        "packs": [
-            "class",
-			"classfeatures",
-            "feats",
-			"magicitems",
-			"conduitmacros",
-			"conduitarchetype",
-			"textguide"
-        ]
+      "name": "Conduit",
+      "sorting": "a",
+      "packs": [
+        "class",
+        "classfeatures",
+        "feats",
+        "magicitems",
+        "conduitmacros",
+        "conduitarchetype",
+        "textguide"
+      ],
+      "folders": []
     }
   ],
   "flags": {
     "conduit": {
-        "pf2e-homebrew": {
-          "featTraits": {
-            "conduit": "Conduit"
-          },
-          "weaponGroups": {
-            "eldritch-blast": "Eldritch Blast",
-            "eldritch-blast-cuffs": "Eldritch Blast - Cuffs",
-			"eldritch-blast-familiar": "Eldritch Blast - Familiar",
-			"eldritch-blast-hilt": "Eldritch Blast - Hilt"
-          }
+      "pf2e-homebrew": {
+        "featTraits": {
+          "conduit": "Conduit"
+        },
+        "weaponGroups": {
+          "eldritch-blast": "Eldritch Blast",
+          "eldritch-blast-cuffs": "Eldritch Blast - Cuffs",
+          "eldritch-blast-familiar": "Eldritch Blast - Familiar",
+          "eldritch-blast-hilt": "Eldritch Blast - Hilt"
         }
+      }
     }
   }
 }
