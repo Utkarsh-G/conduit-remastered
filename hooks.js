@@ -1,4 +1,4 @@
-const hookindex = Hooks.on('createChatMessage', async (chatMessage) => {
+const hookindex = Hooks.on('preCreateChatMessage', async (chatMessage) => {
 
     const action = chatMessage.flags?.pf2e?.context?.action
    
@@ -39,7 +39,7 @@ const hookindex = Hooks.on('createChatMessage', async (chatMessage) => {
   console.log("Hook index for listening to eldritch blasts:")
   console.log(hookindex)
   
-const hookindex2 = Hooks.on('createItem', async (item) => {
+const hookindex2 = Hooks.on('preCreateItem', async (item) => {
 
 const cuffsName = "Stance: Cuffs Stance"
 const familiarName = "Stance: Familiar Stance"
