@@ -1,3 +1,8 @@
-2024/01/21-00:27:58.834 f5c Recovering log #404
-2024/01/21-00:27:58.838 f5c Delete type=0 #404
-2024/01/21-00:27:58.838 f5c Delete type=3 #402
+2024/01/21-19:31:27.603 3510 Recovering log #464
+2024/01/21-19:31:27.606 3510 Delete type=0 #464
+2024/01/21-19:31:27.606 3510 Delete type=3 #463
+2024/01/21-19:42:39.413 4020 Level-0 table #468: started
+2024/01/21-19:42:39.413 4020 Level-0 table #468: 0 bytes OK
+2024/01/21-19:42:39.414 4020 Delete type=0 #466
+2024/01/21-19:42:39.417 4020 Manual compaction at level-0 from '!items!0UkF0LrhlB64TqKr' @ 72057594037927935 : 1 .. '!items!y6Iw9oCBBgIThFFA' @ 0 : 0; will stop at (end)
+2024/01/21-19:42:39.418 4020 Manual compaction at level-1 from '!items!0UkF0LrhlB64TqKr' @ 72057594037927935 : 1 .. '!items!y6Iw9oCBBgIThFFA' @ 0 : 0; will stop at (end)
