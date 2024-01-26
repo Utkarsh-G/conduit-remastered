@@ -3,8 +3,9 @@
 
 ## Buy the PDF
 
-Itch.io page: https://avtrspirit.itch.io/conduit-remastered
-DriveThruRPG page: https://preview.drivethrurpg.com/en/product/467918/Conduit-Remastered
+- Itch.io page: https://avtrspirit.itch.io/conduit-remastered
+
+- DriveThruRPG page: https://preview.drivethrurpg.com/en/product/467918/Conduit-Remastered
 
 ## Foundry VTT files for Conduit Remastered
 
