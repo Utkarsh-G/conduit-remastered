@@ -1,10 +1,10 @@
 {
   "id": "conduit",
   "title": "Conduit Remastered",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "12"
   },
   "description": "A high-accuracy energy blaster class for Pathfinder 2e.",
   "url": "https://github.com/Utkarsh-G/conduit-remastered",
