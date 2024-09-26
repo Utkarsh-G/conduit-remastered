@@ -16,9 +16,7 @@ const hookindex = Hooks.on('preCreateChatMessage', async (chatMessage) => {
   
     if (action==="strike" && isEldritchBlast && outcome)
     {
-      console.log("Valid for bond change.")
       if (outcome === "success"){
-        console.log("in success mode")
         const macroId = await fromUuid("Compendium.conduit.conduitmacros.Macro.BVckP55g3gsziM0i")
         macroId.execute({"actorIn":chatMessage.speaker?.actor})
       }
@@ -35,9 +33,6 @@ const hookindex = Hooks.on('preCreateChatMessage', async (chatMessage) => {
   
   
   });
-  
-  console.log("Hook index for listening to eldritch blasts:")
-  console.log(hookindex)
   
 const hookindex2 = Hooks.on('preCreateItem', async (item) => {
 
@@ -65,6 +60,3 @@ if (item.name === hiltName && item.type === type){
 }
   
 });
-
-console.log("Hook index for listening to stance creation:")
-console.log(hookindex2)
