@@ -4,7 +4,7 @@
   "version": "1.1.0",
   "compatibility": {
     "minimum": "11",
-    "verified": "12"
+    "verified": "12.331"
   },
   "description": "A high-accuracy energy blaster class for Pathfinder 2e.",
   "url": "https://github.com/Utkarsh-G/conduit-remastered",
@@ -14,7 +14,8 @@
     {
       "name": "Utkarsh Gaur",
       "discord": "AvtrSpirit",
-      "email": "avtrspirit@gmail.com"
+      "email": "avtrspirit@gmail.com",
+      "flags": {}
     }
   ],
   "packs": [
@@ -27,7 +28,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "classfeatures",
@@ -38,7 +40,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "feats",
@@ -49,7 +52,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "conduitmacros",
@@ -60,7 +64,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "conduitarchetype",
@@ -71,7 +76,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "magicitems",
@@ -82,7 +88,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "textguide",
@@ -93,7 +100,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -109,7 +117,8 @@
         "conduitarchetype",
         "textguide"
       ],
-      "folders": []
+      "folders": [],
+      "color": null
     }
   ],
   "flags": {
@@ -128,6 +137,6 @@
     }
   },
   "esmodules": [
-	"./hooks.js"
+    "hooks.js"
   ]
 }
